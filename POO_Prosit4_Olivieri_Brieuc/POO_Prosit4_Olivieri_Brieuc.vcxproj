@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="EM.cpp" />
     <ClCompile Include="POO_Prosit4_Olivieri_Brieuc.cpp" />
+    <ClCompile Include="Radio.cpp" />
     <ClCompile Include="REC.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EM.h" />
+    <ClInclude Include="Radio.h" />
     <ClInclude Include="REC.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

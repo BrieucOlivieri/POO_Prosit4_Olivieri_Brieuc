@@ -1,40 +1,25 @@
 #include <iostream>
 #include "REC.h"
 #include "EM.h"
+#include "Radio.h"
 
 using namespace std;
 
-void Nrj(void);
-void Sky(void);
-void FrTnter(void);
-
 typedef void (*pf)(void);
 pf* index;
-
-void Nrj(void)
-{
-	EM NRJ;
-	NRJ.signal("Vous ecoutez NRJ !");
-}
-void Sky(void)
-{
-	EM Skyrock;
-	Skyrock.signal("Vous ecoutez SKYROCK !");
-}
-void FrTnter(void)
-{
-	EM FranceInter;
-	FranceInter.signal("Vous ecoutez FranceInter !");
-}
 
 int main()
 {
 	int nombre;
 	pf addOfFunc[3];
 
-	addOfFunc[0] = &Nrj; addOfFunc[1] = &Sky; addOfFunc[2] = &FrTnter;
+	Radio rad;
 
-	cout << "Combien de radios voulez-vous ?" << endl;
+	addOfFunc[0] = &(rad.Nrj);
+	addOfFunc[1] = &(rad.Sky);
+	addOfFunc[2] = &(rad.FrTnter);
+
+	cout << "Combien de radios voulez-vous vous abonner ?" << endl;
 	cin >> nombre;
 
 	index = new pf[nombre];
