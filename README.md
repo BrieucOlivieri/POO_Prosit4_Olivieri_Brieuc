@@ -2,10 +2,10 @@
 This project simulate a radio communication with a message.
 
 ## Use Case Diagram
-![image](https://github.com/Brieuc31/POO_Prosit4_Olivieri_Brieuc/assets/150126177/819d06bd-5c4f-43ab-a073-94e2c35c59c8)
+![Use_case](https://github.com/BrieucOlivieri/POO_Prosit4_Olivieri_Brieuc/assets/150126177/77e9629e-37d7-4be6-975c-899f02dc64c7)
 
 ## Sequence Diagram
-![image](https://github.com/Brieuc31/POO_Prosit4_Olivieri_Brieuc/assets/150126177/8f6cfff8-edf5-4614-a3dc-496e7033676c)
+![Sequence_diagram](https://github.com/BrieucOlivieri/POO_Prosit4_Olivieri_Brieuc/assets/150126177/96670d92-ffbe-4d99-8eea-6fc3bfcf5544)
 
 ## Class Diagram
-![image](https://github.com/BrieucOlivieri/POO_Prosit4_Olivieri_Brieuc/assets/150126177/9bb65b89-233c-4f73-8ebf-e3283133d504)
+![Class_diagram](https://github.com/BrieucOlivieri/POO_Prosit4_Olivieri_Brieuc/assets/150126177/e7706db8-13c2-4d8c-9c3c-72ce19c39bb6)
