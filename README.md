@@ -8,4 +8,4 @@ This project simulate a radio communication with a message.
 ![image](https://github.com/Brieuc31/POO_Prosit4_Olivieri_Brieuc/assets/150126177/8f6cfff8-edf5-4614-a3dc-496e7033676c)
 
 ## Class Diagram
-![image](https://github.com/Brieuc31/POO_Prosit4_Olivieri_Brieuc/assets/150126177/ccccd9da-8509-4fae-87f1-0d1d23a908bb)
+![image](https://github.com/BrieucOlivieri/POO_Prosit4_Olivieri_Brieuc/assets/150126177/9bb65b89-233c-4f73-8ebf-e3283133d504)
